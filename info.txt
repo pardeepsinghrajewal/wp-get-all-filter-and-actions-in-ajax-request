@@ -1,0 +1,20 @@
+We gernaly need to find which filters or actions are running when a specific task or code is running using Ajax. This small script can save a day!
+
+We need to add code into the plugin.php file.
+
+File Path : /wp-includes/plugin.php
+
+Funtion names : 
+
+1) function add_filter( $hook_name, ... ) 
+
+2) function add_action( $hook_name, ... ) 
+
+3) function do_action( $hook_name, ... ) 
+
+4) function apply_filters( $hook_name, ... ) 
+
+
+Add code in the staring of these functions definitions. 
+
+I have added the plugin.php example too!
